@@ -1,59 +1,62 @@
-# AngularBuzzFeed
+## 🎯 Angular BuzzFeed Clone
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+Bem-vindo ao **Angular BuzzFeed**, um projeto desenvolvido com **Angular** para criar um sistema de quizzes interativo inspirado no BuzzFeed! 🚀
 
-## Development server
+---
 
-To start a local development server, run:
+## 💻 Sobre o Projeto
 
-```bash
-ng serve
-```
+O objetivo deste projeto é criar um quiz dinâmico e responsivo utilizando **Angular**, **TypeScript** e **Material UI**, explorando a componentização e o consumo de APIs.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 📚 Pré-requisitos
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Antes de rodar o projeto, certifique-se de ter instalado:
 
-```bash
-ng generate component component-name
-```
+- **Node.js** (versão 16 ou superior)
+- **Angular CLI** (versão 15 ou superior)
+- **Git** (para controle de versão)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🚀 Como Rodar o Projeto
 
-## Building
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/leolimaferreira/angular-buzzfeed.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd angular-buzzfeed
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+4. Execute o servidor de desenvolvimento:
+   ```sh
+   ng serve
+   ```
+5. Acesse no navegador:
+   ```
+   http://localhost:4200
+   ```
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🛠️ Tecnologias Utilizadas
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- **Angular** - Framework frontend
+- **TypeScript** - Tipagem estática
+- **Material UI** - Estilização moderna
+- **HTML5 & CSS3** - Estruturação e estilização
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📌 Funcionalidades
 
-```bash
-ng test
-```
+✅ Criar e responder quizzes interativos  
+✅ Interface dinâmica e responsiva  
+✅ Componentização e reutilização de código  
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
